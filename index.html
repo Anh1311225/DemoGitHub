@@ -31,8 +31,20 @@
             <li class="navbar__link"><a href="#works">Work</a></li>
             <li class="navbar__link"><a href="about.html">About</a></li>
             <li class="navbar__link"><a href="#works">Resume</a></li>
+            <li class="navbar__link" id="lab4">
+              <a href="#lab4">Lab4</a>
+              <!-- Lab4 dropdown menu -->
+              <div class="lab4__menu">
+                <a class="lab4__tab" data-tab="requirement" href="#tabRequirement">Requirement</a>
+                <a class="lab4__tab" data-tab="design" href="#tabDesign">Design</a>
+                <a class="lab4__tab" data-tab="implement" href="javascript:void(0);" id="implementLink">Implement</a>
+              </div>
+            </li>
+
             <a href="#footer"><button class="navbar__btn">Contact</button></a>
           </ul>
+
+
           <!-- menu button -->
           <div class="navbar__icons">
             <div class="navbar__icon"></div>
@@ -191,6 +203,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- main js -->
+
     <script src="./js/main.js"></script>
   </body>
 </html>

@@ -34,11 +34,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-// Lấy đối tượng liên kết "Implement"
-var implementLink = document.getElementById("implementLink");
 
-// Thêm sự kiện click
-implementLink.addEventListener("click", function() {
-  // Chuyển hướng đến trang "manage-iphones.html"
-  window.location.href = "manage-iphones.html";
-});
